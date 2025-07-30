@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: underline;
+  color: #007BFF;
+}
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+h2 {
+  font-size: 2em;
+  color: #555;
+}
+h3 {
+  font-size: 1.75em;
+  color: #777;
+}
