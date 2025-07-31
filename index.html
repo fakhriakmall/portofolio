@@ -147,6 +147,25 @@
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
       }
 
+      .hero .btn-outline-light {
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+      }
+
+      .hero .btn-outline-light:hover {
+        background: white;
+        color: #2a5298;
+        border-color: white;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+      }
+
+      .hero .btn-light:hover {
+        background: #f8f9fa;
+        color: #2a5298;
+      }
+
       /* Floating elements */
       .floating-element {
         position: absolute;
@@ -440,9 +459,14 @@
       <div class="hero-content">
         <h1>Fakhri Akmal Fadillah</h1>
         <p class="lead">Web Developer | UI/UX Designer</p>
-        <a href="#contact" class="btn btn-light btn-lg mt-3 shadow-sm"
-          >Hubungi Saya</a
-        >
+        <div class="d-flex gap-3 justify-content-center mt-3">
+          <a href="#contact" class="btn btn-light btn-lg shadow-sm"
+            >Hubungi Saya</a
+          >
+          <a href="assets/cv/FakhriAkmalFadillah_CV.pdf" download class="btn btn-outline-light btn-lg shadow-sm"
+            ><i class="bi bi-download me-2"></i>Download CV</a
+          >
+        </div>
       </div>
     </header>
 
